@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <script>
+        (function() {
+            var userLang = navigator.language || navigator.userLanguage;
+            var targetLang = userLang.split('-')[0];
+            var currentLang = 'id';
+            if (targetLang !== currentLang) {
+                var cookieStr = "googtrans=/" + currentLang + "/" + targetLang;
+                document.cookie = cookieStr + "; path=/; domain=" + window.location.hostname;
+                document.cookie = cookieStr + "; path=/";
+            }
+        })();
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'id',
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <script src="https://pl29495435.effectivecpmnetwork.com/bf/27/b4/bf27b45384569c299e183087eaffdcc7.js"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ludo King® MOD APK V10.3.0.393 - MODORA Official</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --bg-body: #0f172a; --bg-card: #1e293b; --text-main: #f8fafc; --text-muted: #94a3b8;
+            --primary: #2563eb; --accent: #10b981; --border: #334155; --card-border: #334155;
+            --bg-glass: rgba(30, 41, 59, 0.85); --glass-blur: blur(12px);
+            --font-main: 'Plus Jakarta Sans', sans-serif; --header-h: 60px;
+            --search-bg: rgba(255, 255, 255, 0.05); --shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: var(--font-main); outline: none; -webkit-tap-highlight-color: transparent; }
+        html, body { width: 100%; overflow-x: hidden; scroll-behavior: smooth; background-color: var(--bg-body); color: var(--text-main); }
+        body { padding-top: calc(var(--header-h) + 15px); padding-bottom: calc(env(safe-area-inset-bottom, 20px) + 30px); }
+        
+        /* Sembunyikan UI Google Translate agar terlihat premium dan clean */
+        .skiptranslate, #goog-gt-tt, .goog-te-banner-frame { display: none !important; }
+        body { top: 0px !important; }
+        #google_translate_element { display: none !important; }
+
+        #mainView { width: 100%; padding: 0 24px; margin: 0 auto; max-width: 600px; animation: appEntry 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+        @keyframes appEntry { 0% { opacity: 0; transform: translateY(15px); } 100% { opacity: 1; transform: translateY(0); } }
+        
+        .ad-box { width: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; margin: 25px 0; overflow-x: auto; scrollbar-width: none; background: rgba(0,0,0,0.15); border-radius: 12px; padding: 10px 0; border: 1px dashed var(--border); }
+        .ad-box::-webkit-scrollbar { display: none; }
+
+        header { position: fixed; top: 0; left: 0; width: 100%; height: var(--header-h); padding: 0 24px; background: var(--bg-glass); backdrop-filter: var(--glass-blur); -webkit-backdrop-filter: var(--glass-blur); display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--border); z-index: 1000; }
+        .btn-back { width: 40px; height: 40px; background: var(--search-bg); color: var(--text-main); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 18px; text-decoration: none; transition: transform 0.2s; cursor: pointer; }
+        .btn-back:active { transform: scale(0.9); }
+        .header-title { font-weight: 800; font-size: 18px; letter-spacing: -0.5px; }
+        .btn-tele { width: 40px; height: 40px; background: #29b6f6; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 18px; text-decoration: none; transition: transform 0.2s; }
+        .btn-tele:active { transform: scale(0.9); }
+
+        .app-header-detail { display: flex; gap: 15px; margin-bottom: 20px; align-items: center; }
+        .app-icon-detail { width: 90px; height: 90px; border-radius: 20px; object-fit: cover; box-shadow: var(--shadow); }
+        .app-meta-detail { flex: 1; }
+        .app-meta-detail h1 { font-size: 20px; font-weight: 800; line-height: 1.3; margin-bottom: 5px; color: var(--text-main); }
+        .app-dev-detail { font-size: 13px; color: var(--text-muted); font-weight: 600; margin-bottom: 8px; }
+        .badge-mod { display: inline-flex; align-items: center; background: rgba(16, 185, 129, 0.15); color: var(--accent); padding: 4px 10px; border-radius: 8px; font-size: 11px; font-weight: 800; gap: 5px; text-transform: uppercase; letter-spacing: 0.5px; }
+
+        .ss-scroll { display: flex; gap: 15px; overflow-x: auto; scroll-snap-type: x mandatory; margin-bottom: 25px; padding-bottom: 10px; scrollbar-width: none; }
+        .ss-scroll::-webkit-scrollbar { display: none; }
+        .ss-img { height: 350px; border-radius: 16px; scroll-snap-align: center; object-fit: cover; box-shadow: var(--shadow); border: 1px solid var(--card-border); cursor: pointer; }
+
+        .section-title { font-size: 16px; font-weight: 800; margin-bottom: 15px; display: flex; align-items: center; gap: 8px; color: var(--text-main); }
+        .section-title i { color: var(--primary); }
+
+        .desc-box { font-size: 14px; line-height: 1.6; color: var(--text-muted); margin-bottom: 25px; background: var(--bg-card); padding: 20px; border-radius: 16px; border: 1px solid var(--card-border); }
+        .desc-box p { margin-bottom: 10px; }
+        .desc-box p:last-child { margin-bottom: 0; }
+
+        .btn-download-huge { display: flex; flex-direction: column; align-items: center; justify-content: center; width: 100%; background: linear-gradient(135deg, var(--primary), #1d4ed8); padding: 18px; border-radius: 16px; color: white; text-decoration: none; font-weight: 800; font-size: 16px; box-shadow: 0 10px 25px rgba(37, 99, 235, 0.4); transition: transform 0.2s, box-shadow 0.2s; gap: 4px; }
+        .btn-download-huge:active { transform: scale(0.96); box-shadow: 0 5px 15px rgba(37, 99, 235, 0.3); }
+        .btn-date { font-size: 11px; font-weight: 600; opacity: 0.85; margin-top: 5px; text-transform: uppercase; letter-spacing: 0.5px; }
+
+        .social-notice { background: var(--bg-card); border: 1px solid var(--card-border); border-radius: 16px; padding: 15px; margin-bottom: 25px; text-align: center; box-shadow: var(--shadow); }
+        .social-notice p { font-size: 13px; font-weight: 700; margin-bottom: 12px; color: var(--text-main); }
+        .social-links { display: flex; gap: 10px; justify-content: center; }
+        .btn-wa, .btn-tg { flex: 1; padding: 10px; border-radius: 12px; text-decoration: none; font-weight: 700; font-size: 13px; display: flex; align-items: center; justify-content: center; gap: 6px; color: white; transition: transform 0.2s; }
+        .btn-wa { background: #25D366; } .btn-tg { background: #2AABEE; }
+        .btn-wa:active, .btn-tg:active { transform: scale(0.95); }
+
+        .mini-actions { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 25px; }
+        .btn-mini { background: var(--bg-card); color: var(--text-main); border: 1px solid var(--card-border); padding: 12px 5px; border-radius: 16px; font-size: 11px; font-weight: 700; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; cursor: pointer; transition: transform 0.2s, background 0.2s; box-shadow: var(--shadow); text-decoration: none; }
+        .btn-mini:active { transform: scale(0.95); background: var(--search-bg); }
+        .btn-mini i { font-size: 18px; color: var(--primary); }
+
+        .mod-feature-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-bottom: 25px; }
+        .mod-feat-card { background: var(--bg-card); padding: 12px 15px; border-radius: 16px; border: 1px solid var(--card-border); display: flex; align-items: center; gap: 10px; font-size: 12px; font-weight: 700; color: var(--text-main); }
+        .mod-feat-card i { color: var(--accent); font-size: 16px; }
+
+        .lightbox { position: fixed; top: 0; left: 0; z-index: 10000; width: 100%; height: 100%; background: rgba(15, 23, 42, 0.95); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); align-items: center; justify-content: center; flex-direction: column; opacity: 0; transition: opacity 0.3s; display: none; }
+        .lightbox.show { display: flex; opacity: 1; }
+        .lightbox-content { max-width: 85vw; max-height: 80vh; object-fit: contain; border-radius: 12px; box-shadow: 0 10px 40px rgba(0,0,0,0.5); transform: scale(0.9); transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+        .lightbox.show .lightbox-content { transform: scale(1); }
+        .close-lb { position: absolute; top: 20px; right: 20px; color: #fff; font-size: 24px; cursor: pointer; width: 40px; height: 40px; background: rgba(255,255,255,0.15); border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: background 0.2s; z-index: 10001; }
+        .close-lb:active { background: rgba(255,255,255,0.3); }
+        .prev-lb, .next-lb { cursor: pointer; position: absolute; top: 50%; transform: translateY(-50%); width: 45px; height: 45px; color: white; font-size: 20px; background: rgba(255,255,255,0.15); border-radius: 50%; display: flex; align-items: center; justify-content: center; z-index: 10001; transition: background 0.2s; }
+        .prev-lb { left: 10px; } .next-lb { right: 10px; }
+        .prev-lb:active, .next-lb:active { background: rgba(255,255,255,0.3); }
+    </style>
+</head>
+<body>
+    <div id="google_translate_element"></div>
+
+    <header>
+        <a href="javascript:history.back()" class="btn-back"><i class="fa-solid fa-angle-left"></i></a>
+        <div class="header-title">App Detail</div>
+        <a href="https://modorazone.com/telegram" class="btn-tele"><i class="fa-brands fa-telegram"></i></a>
+    </header>
+
+    <div id="mainView">
+        
+        <div class="ad-box">
+            <script> atOptions = { 'key' : '98e5a911cde15031515f320e8fcf291f', 'format' : 'iframe', 'height' : 50, 'width' : 320, 'params' : {} }; </script>
+            <script src="https://divorceabetpiano.com/98e5a911cde15031515f320e8fcf291f/invoke.js"></script>
+        </div>
+
+        <div class="app-header-detail">
+            <img src="https://play-lh.googleusercontent.com/AwrQb4bJk-34pw_ye7VhjDN0Azraz_pYYq9s5FbcapiF7qfxbYYvqWl-TjIF9xJIeA=s512" class="app-icon-detail" alt="Icon">
+            <div class="app-meta-detail">
+                <h1>Ludo King® MOD APK V10.3.0.393</h1>
+                <div class="app-dev-detail">Gametion</div>
+                <div class="badge-mod"><i class="fa-solid fa-shield-halved"></i> 100% MOD APK</div>
+            </div>
+        </div>
+
+        <div class="ad-box">
+            <script> atOptions = { 'key' : '51958bcab575abd390b6c1b8508d20ac', 'format' : 'iframe', 'height' : 250, 'width' : 300, 'params' : {} }; </script>
+            <script src="https://divorceabetpiano.com/51958bcab575abd390b6c1b8508d20ac/invoke.js"></script>
+        </div>
+
+        <div class="mini-actions">
+            <a href="javascript:void(0)" onclick="scrollToDownload(event)" class="btn-mini"><i class="fa-solid fa-download"></i><span>Download</span></a>
+            <a href="https://play.google.com/store/apps/details?id=com.ludo.king&hl=en" target="_blank" class="btn-mini"><i class="fa-brands fa-google-play"></i><span>Play Store</span></a>
+            <div class="btn-mini" onclick="shareApp()"><i class="fa-solid fa-share-nodes"></i><span>Bagikan</span></div>
+        </div>
+
+        <div class="ss-scroll">
+            <img src="https://play-lh.googleusercontent.com/0CEVKudlzo2Rae1qRvQmp3OAfYIe0sdymw_oPPjZRbTpZPPHhOl46SH0vA7MKWWU_5LC=s720" class="ss-img" alt="MODORA Official" loading="lazy">
+                            <img src="https://play-lh.googleusercontent.com/yRs4Wyajye9P8ppwD-8GpW6N8dTgOcvgP8eR5S2Tqwfe2fODn5VcXadGPV2Nu-pJJJg=s720" class="ss-img" alt="MODORA Official" loading="lazy">
+                            <img src="https://play-lh.googleusercontent.com/tBTNowiwvx-y3yyUmZM0dVGgTqNTp883qUkAu_9j_z9zzslIemfy-7qDM-ENoUL-pIOS=s720" class="ss-img" alt="MODORA Official" loading="lazy">
+                            <img src="https://play-lh.googleusercontent.com/Oo-vfb_bZQC-6a8Q1x942Ym51PkoWDF2TsSLmHBVfeGz0aCAAORT7C8B_8yNjS7vRPo=s720" class="ss-img" alt="MODORA Official" loading="lazy">
+                            <img src="https://play-lh.googleusercontent.com/_hypEz_ZhimAjFEyBmtN0tR2r6ZkA8B2_kd2mmNKTh_1LsEotwpT13IT2R3DApn_Jg=s720" class="ss-img" alt="MODORA Official" loading="lazy">
+                            <img src="https://play-lh.googleusercontent.com/u7ua0PKATtdyzlMHVtfedkHB__SPoZ4r98XEnCYijMdoIYkl2tn34awiSY4Oequ96g=s720" class="ss-img" alt="MODORA Official" loading="lazy">
+                            <img src="https://play-lh.googleusercontent.com/URdV18ol-DmLc9eDA0G_2jX3TZre9Gy95YqgvUvx9ivcKlqze9D1tAsYf1WL8MEuIGw=s720" class="ss-img" alt="MODORA Official" loading="lazy">
+                            <img src="https://play-lh.googleusercontent.com/nRq5qRblfS4Fj2r07JsNmgKKXo_VQ9KOlIMMTMiFqwxKavsZEGngmMNGlFqm2VmqSPQ=s720" class="ss-img" alt="MODORA Official" loading="lazy">
+                            <img src="https://play-lh.googleusercontent.com/JIG1DmhaLOT-StNWspIeCYSX-B1e_pzCCx8hgAr9p87bZIR-oTtaBd9zQiuCCgOjKw=s720" class="ss-img" alt="MODORA Official" loading="lazy">
+                            <img src="https://play-lh.googleusercontent.com/gM7jR_VNXqtF-Yu8BPrzMPr7MN-M8d7qXduV9E6N9ajbWlh9aL6HBb90QVsGDynEkBo=s720" class="ss-img" alt="MODORA Official" loading="lazy">
+                            <img src="https://play-lh.googleusercontent.com/MnAxvnrysUVwf1LrLJfw2Mbx6BfXnWwoWQE_UoucRuuZsXvBOl5cqfGCqILwdUvjbRo=s720" class="ss-img" alt="MODORA Official" loading="lazy">
+                            <img src="https://play-lh.googleusercontent.com/1SKmja_TiR_0lcyDZH1_gmy1NsQM3U1XgFbqcterC8mh-PhYxQpZ1_wa3Gsm75ElvQ=s720" class="ss-img" alt="MODORA Official" loading="lazy">
+                            <img src="https://play-lh.googleusercontent.com/K6iwopsY0Vo0lsLn-EiNMGvw5elUUDE8Wtnjs0QYOEsXchIeFXltNyRfcHbm3raUWKM=s720" class="ss-img" alt="MODORA Official" loading="lazy">
+                            <img src="https://play-lh.googleusercontent.com/vpq8Il_Ieg7pFuEHEQFc1A2OMr2rtZrESzhZSg6DjzigHP55D0DMzfSHbDeIexxr9t4=s720" class="ss-img" alt="MODORA Official" loading="lazy">
+                            <img src="https://play-lh.googleusercontent.com/CtCW159O_63hOLd0tZn5WqQwBaxNtFKcBRUVmdzR9uCUYT6ezPSs5HRQI6izLeWqiA=s720" class="ss-img" alt="MODORA Official" loading="lazy">
+                            <img src="https://play-lh.googleusercontent.com/NZXSpORGy7sGLLPcOtwUeeRlOfn6cAUsHxbwFjNyUrUytLFRqvfFtOAZfcLLJ-0FTw=s720" class="ss-img" alt="MODORA Official" loading="lazy">
+                            <img src="https://play-lh.googleusercontent.com/mELoNRNd3uyf6rvyPb656RZNOf0c7u4-bLDIPI0z0VDYiimqyNVa-jLLx5A-WeGyDQ=s720" class="ss-img" alt="MODORA Official" loading="lazy">
+                            <img src="https://play-lh.googleusercontent.com/lB5lXeZrTg6uHOutlV_qPYzGURPTwcgJRxWQ76j4Deck4P8itr04i8wyLuLpfKscnk8Z=s720" class="ss-img" alt="MODORA Official" loading="lazy">
+                            <img src="https://play-lh.googleusercontent.com/2g9ZsxOaX66aGgo-4bXckCeBmGcYHR9CxveuYWs7p7Jq5rYD88gInFLSSQXDllWKktQ=s720" class="ss-img" alt="MODORA Official" loading="lazy">
+                            <img src="https://play-lh.googleusercontent.com/HrFMBrTjQQ5L03J-y-ZQyJetKkuuPU9CQ28M06S-5a3GZGoheZcJGhopZu6FC6ifniY7=s720" class="ss-img" alt="MODORA Official" loading="lazy">
+                            <img src="https://play-lh.googleusercontent.com/hKZL6E-ouxvicfevc9Hqj3I9LkcyMB9PMOt0QZV2sBPMA0M9MeQQ_7ZoSzlllGsTwa0=s720" class="ss-img" alt="MODORA Official" loading="lazy">
+                            <img src="https://play-lh.googleusercontent.com/lLsB5AvY0Vk7HZLzoHdt5s8Q5D2BbmFBucCf6qJAiq9VbrFZybfx8GercDk_Ymy-uw=s720" class="ss-img" alt="MODORA Official" loading="lazy">
+                            <img src="https://play-lh.googleusercontent.com/v6dEV9A_vsAZHN5Zx8un7oxrpLjVAIm7unHkdiDRkxoHCzSalbr0WZQR-H7bINMxDsI=s720" class="ss-img" alt="MODORA Official" loading="lazy">
+                            <img src="https://play-lh.googleusercontent.com/2qIw7esEcqVcAXDFc6tCFa9tI7Fr6pfVK7VFFkjHcw27vfwT5XPc2LeiBNzRzfrHGFA=s720" class="ss-img" alt="MODORA Official" loading="lazy">
+                            <img src="https://play-lh.googleusercontent.com/JE0EWjZ-5xtI7oVt_-DV50T7VBttJvwIDKJPVUr3gCPxHwcAhpta0bl8YXbBFQkNe0M=s720" class="ss-img" alt="MODORA Official" loading="lazy">
+                            <img src="https://play-lh.googleusercontent.com/_BqcHdqO4NsYqe4pr0BkGLkpZY8OxkHeehcMhss1dPpsqtse28fhCN8OEyrJ3drLzbdO=s720" class="ss-img" alt="MODORA Official" loading="lazy">
+                            <img src="https://play-lh.googleusercontent.com/P7CPD45pBz12Sdu3COZqqONfwW1rxtJiYF-o42UFgov85UQaQesmxWHK9VkUdiIsTA=s720" class="ss-img" alt="MODORA Official" loading="lazy">
+                            <img src="https://play-lh.googleusercontent.com/ZkG7EBFDacH-PYChraz3f7SMqdf-jWLK_i2NhtjVGFR5R5Yc5bPmVJndyRNyFUn9RJU=s720" class="ss-img" alt="MODORA Official" loading="lazy">
+                            <img src="https://play-lh.googleusercontent.com/wLZ5nHEEzzVn5ppX2c-d3nKifw0zIuOcaUrgPr0T3NGd2KTxMLESTzmumJJvi84-Cw=s720" class="ss-img" alt="MODORA Official" loading="lazy">
+                            <img src="https://play-lh.googleusercontent.com/ydP0RnXA2h85P6apvoMIddcZFiRgDP7TCs1TisQNYo0os4BhBSdEVsV824YZPjnpfAaK=s720" class="ss-img" alt="MODORA Official" loading="lazy">
+                            <img src="https://play-lh.googleusercontent.com/FS-IIRqUNAlkcVYlXCn3887qt_yJlsPnnKUwMTQWxK7jk_PEoBiyuZ2-EpNXBARVJw=s720" class="ss-img" alt="MODORA Official" loading="lazy">
+                            <img src="https://play-lh.googleusercontent.com/19taRS7hLXsGby-0r_sCTMkEhs81GnRdAjtF6LHdCtc5ZQ9bBgocMRSsKpqDp--zVQ=s720" class="ss-img" alt="MODORA Official" loading="lazy">
+                            
+        </div>
+
+        <div class="ad-box">
+            <script async="async" data-cfasync="false" src="https://divorceabetpiano.com/7ed8821ea0ba45dfed7011229402b013/invoke.js"></script>
+            <div id="container-7ed8821ea0ba45dfed7011229402b013"></div>
+        </div>
+
+        
+
+        <div class="ad-box">
+            <script> atOptions = { 'key' : 'e95bef73a5a00706575ee96b07041387', 'format' : 'iframe', 'height' : 60, 'width' : 468, 'params' : {} }; </script>
+            <script src="https://divorceabetpiano.com/e95bef73a5a00706575ee96b07041387/invoke.js"></script>
+        </div>
+
+        <div class="section-title"><i class="fa-solid fa-star"></i> Fitur MOD</div>
+        <div class="mod-feature-grid">
+            <div class="mod-feat-card"><i class="fa-solid fa-circle-check"></i> <span>New Update</span></div><div class="mod-feat-card"><i class="fa-solid fa-circle-check"></i> <span>Unlimited Money</span></div><div class="mod-feat-card"><i class="fa-solid fa-circle-check"></i> <span>Unlimited Gems/Coins</span></div><div class="mod-feat-card"><i class="fa-solid fa-circle-check"></i> <span>No Ads</span></div><div class="mod-feat-card"><i class="fa-solid fa-circle-check"></i> <span>Anti-Ban</span></div><div class="mod-feat-card"><i class="fa-solid fa-circle-check"></i> <span>Max Level</span></div><div class="mod-feat-card"><i class="fa-solid fa-circle-check"></i> <span>UNLIMITED TOKEN</span></div><div class="mod-feat-card"><i class="fa-solid fa-circle-check"></i> <span>EXP+</span></div>
+        </div>
+
+        <div class="section-title"><i class="fa-solid fa-circle-info"></i> Deskripsi</div>
+        <div class="desc-box">
+            <p>*THIS IS OFFICIAL LUDO KING® GAME</p>
+                        
+                        <p>1.75 Billion Downloads!</p>
+                        
+                        <p>Adda (Club) is live! Create your own or join others to chat and hang out.</p>
+                        
+                        <p>Ludo King® is board game played between friends, family &amp; kids. </p>
+                        <p>* 2/3/4/5/6 Players online Ludo game mode available</p>
+                        <p>* 2/3/4 Players Snakes and Ladders game mode available</p>
+                        <p>* 8 Players tournament available</p>
+                        <p>* New Ludo season released each month</p>
+                        <p>* Play daily goals and get free dice, coins and diamonds</p>
+                        
+                        <p>Ludo King® is a classic board game played between friends and family. Play the dice game of kings! Recall your childhood! In some places, Ludo is also known as Parchisi, Pachisi, parcheesi or Parchisi game.</p>
+                        
+                        <p>Ludo King is a cross platform multiplayer game that supports Desktop, Android, iOS, HTML5 and Windows mobile platform at same time. This game also support offline mode, where player can play with Computer or, Local multiplayer (pass and play mode). Play this dice game Ludo King. Best casual game in board games.</p>
+                        
+                        <p>New Game Themes available:</p>
+                        <p>Disco / Night mode Theme</p>
+                        <p>Nature Theme</p>
+                        <p>Egypt Theme</p>
+                        <p>Pinball Theme</p>
+                        <p>Candy Theme</p>
+                        <p>Christmas Theme</p>
+                        <p>Penguin Theme</p>
+                        <p>Battle Theme</p>
+                        <p>Diwali Theme</p>
+                        <p>Pirate Theme</p>
+                        <p>Sui Dhaaga Theme</p>
+                        <p>Marble Theme</p>
+                        <p>Alien Theme</p>
+                        <p>Octopus Theme</p>
+                        <p>Taj Mahal Theme</p>
+                        
+                        <p>What's new:</p>
+                        <p>* Social chat (text and voice)</p>
+                        <p>* Search- Worldwide players search</p>
+                        <p>* Quick mode</p>
+                        <p>* Tournament available</p>
+                        <p>* Real chat with friends and buddies</p>
+                        <p>* Challenge Facebook friends/buddies</p>
+                        <p>* Save/Load Ludo game option</p>
+                        <p>* More user-friendly UI</p>
+                        <p>* Low end devices support</p>
+                        
+                        <p>Ludo King is the modern version of the royal game of Pachisi. A Ludo game which was played between Indian kings and queens in ancient times. Roll the Ludo dice and move your tokens to reach the center of the Ludo board. Beat other players, become the Ludo King.</p>
+                        
+                        <p>Ludo King follows the traditional rules and the old school look of the Ludo game. Just like the kings and queens of India's golden age, your fate depends on the roll of the Ludo's dice and your strategy of moving the tokens effectively. </p>
+                        
+                        <p>Features of Ludo King:</p>
+                        <p>* No internet connection required! Play against the computer</p>
+                        <p>* Play with your family and friends through Local and Online Multiplayer</p>
+                        <p>* Play 2 to 6 Player Local Multiplayer Mode</p>
+                        <p>* Invite and challenge your Facebook Friends in a private game room and beat them to become Ludo King</p>
+                        <p>* Private chat with your Facebook friends &amp; Buddies</p>
+                        <p>* Play Snake and Ladders on 7 different game board variations</p>
+                        
+                        <p>Ludo King is a friends and family game that was once played by kings and now it can be enjoyed by you and your family and friends. You'll be playing this Ludo for hours and its fun for the whole family.</p>
+                        
+                        <p>Ludo King is a perfect time pass game of Ludo board game. You played Ludo in your childhood, now play on your phone and tablet.</p>
+                        
+                        <p>Another nostalgic game similar in structure is Snakes and Ladders. Like Ludo, you may have played this board game when you were young. Ludo King now incorporates this classic Snakes and Ladders game as a whole new level. The objective of the game is simple: you have to be the first one to make it to 100. However, you can only move the same number of tiles as the number you roll on a die. If you land on the same tile as the beginning of a ladder, then you can take the ladder as a shortcut and move on up. A game of ups and down, Snakes and Ladders has been a favorite for generations; and now you can play it too, with Ludo King. </p>
+                        
+                        <p>Ludo has different names in different regions and countries like Fia, Fia-spel (Fia the game), Le Jeu de Dada (The Game of Dada), Non t'arrabbiare, Fia med knuff (Fia with push), Cờ cá ngựa, Uckers, Griniaris, Petits Chevaux (Little Horses), Ki nevet a végén, برسي (Barjis/Barjees). People also misspell Ludo as Loodo, Chakka, Lido, Lado, Ledo, Leedo, Laado, or Lodo.</p>
+                        
+                        <p>Follow us to get news and updates:</p>
+                        <p>* Facebook: https://www.facebook.com/ludokinggame</p>
+                        <p>* Twitter: https://twitter.com/LudoKingGame</p>
+                        <p>* YouTube: https://www.youtube.com/c/LudoKing</p>
+                        <p>* Instagram: https://www.instagram.com/ludokinggame/</p>
+                        <p>* https://ludoking.com</p>
+                        
+                        <p>IGRS RATING: 13+</p>
+        </div>
+
+        <div class="ad-box">
+            <script> atOptions = { 'key' : '264ec4e97722a33af0ac52379830e335', 'format' : 'iframe', 'height' : 90, 'width' : 728, 'params' : {} }; </script>
+            <script src="https://divorceabetpiano.com/264ec4e97722a33af0ac52379830e335/invoke.js"></script>
+        </div>
+
+        <div class="social-notice">
+            <p>Komunitas Modora Official</p>
+            <div class="social-links">
+                <a href="https://modorazone.com/telegram" class="btn-tg"><i class="fa-brands fa-telegram"></i> Join Telegram</a>
+            </div>
+        </div>
+
+        <div class="ad-box">
+            <script> atOptions = { 'key' : '70a73ba0d4418dd3245c267223cce867', 'format' : 'iframe', 'height' : 300, 'width' : 160, 'params' : {} }; </script>
+            <script src="https://divorceabetpiano.com/70a73ba0d4418dd3245c267223cce867/invoke.js"></script>
+        </div>
+
+        <div class="section-title" id="download-section" style="margin-top: 15px;"><i class="fa-solid fa-cloud-arrow-down"></i> Area Download</div>
+        
+        
+                <div id="dl-wrap-0" style="margin-bottom: 12px;">
+                    <div id="dl-loading-0" style="background: var(--bg-card, #1e293b); border: 1px solid var(--card-border, #334155); border-radius: 16px; padding: 25px 20px; text-align: center; color: var(--text-main, #f8fafc); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
+                        <i class="fa-solid fa-circle-notch fa-spin" style="font-size: 28px; color: var(--primary, #2563eb);"></i>
+                        <span style="font-size: 14px; font-weight: 700;">Mempersiapkan Link... <span id="dl-count-0" style="color: var(--primary, #2563eb); font-size: 18px; font-weight: 800;">10</span>s</span>
+                        <div style="width: 100%; height: 6px; background: rgba(0,0,0,0.5); border-radius: 10px; overflow: hidden; box-shadow: inset 0 2px 4px rgba(0,0,0,0.5);">
+                            <div id="dl-progress-0" style="width: 0%; height: 100%; background: linear-gradient(90deg, var(--primary, #2563eb), var(--accent, #10b981)); transition: width 1s linear; border-radius: 10px;"></div>
+                        </div>
+                    </div>
+                    <a href="https://app.apkmb.com/Ludo%20King/Ludo%20King%20v10.2.0.390%20-%20Mod.apk" class="btn-download-huge" id="dl-btn-0" style="display: none; animation: appEntry 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;">
+                        <div><span>DOWNLOAD (300 MB)</span></div>
+                        <div class="btn-date">Update: 26 Mei 2026</div>
+                    </a>
+                    <script>
+                        setTimeout(() => {
+                            let timeLeft = 10;
+                            let loadingEl = document.getElementById('dl-loading-0');
+                            let btnEl = document.getElementById('dl-btn-0');
+                            let countEl = document.getElementById('dl-count-0');
+                            let progressEl = document.getElementById('dl-progress-0');
+                            
+                            let dlTimer = setInterval(() => {
+                                timeLeft--;
+                                let pct = ((10 - timeLeft) / 10) * 100;
+                                if(progressEl) progressEl.style.width = pct + '%';
+                                
+                                if(timeLeft > 0) {
+                                    if(countEl) countEl.innerText = timeLeft;
+                                } else {
+                                    clearInterval(dlTimer);
+                                    if(loadingEl) loadingEl.style.display = 'none';
+                                    if(btnEl) btnEl.style.display = 'flex';
+                                }
+                            }, 1000);
+                            setTimeout(() => { if(progressEl) progressEl.style.width = '10%'; }, 50);
+                        }, 100);
+                    </script>
+                </div>
+        
+        <div class="ad-box">
+            <script> atOptions = { 'key' : 'fbe67facb6ed3b1bc6257b57040c6787', 'format' : 'iframe', 'height' : 600, 'width' : 160, 'params' : {} }; </script>
+            <script src="https://divorceabetpiano.com/fbe67facb6ed3b1bc6257b57040c6787/invoke.js"></script>
+        </div>
+
+        <div style="height: 60px;"></div>
+    </div>
+
+    <div class="lightbox" id="lightbox">
+        <div class="close-lb"><i class="fa-solid fa-xmark"></i></div>
+        <div class="prev-lb"><i class="fa-solid fa-angle-left"></i></div>
+        <img class="lightbox-content" id="img-lb" src="">
+        <div class="next-lb"><i class="fa-solid fa-angle-right"></i></div>
+    </div>
+
+    <script src="https://pl29495437.effectivecpmnetwork.com/a0/4b/f8/a04bf8d588d2c0056bdf6dbcd2c878a3.js"></script>
+
+    <script>
+        // Fungsi scroll ke download akurat di tengah layar
+        function scrollToDownload(e) {
+            if(e) e.preventDefault();
+            const section = document.getElementById('download-section');
+            if(section) {
+                section.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const lb = document.getElementById('lightbox');
+            const lbImg = document.getElementById('img-lb');
+            const images = document.querySelectorAll('.ss-img');
+            let currentIndex = 0;
+
+            images.forEach((img, index) => {
+                img.addEventListener('click', () => {
+                    lb.classList.add('show');
+                    lbImg.src = img.src;
+                    currentIndex = index;
+                });
+            });
+
+            document.querySelector('.close-lb').onclick = () => lb.classList.remove('show');
+            
+            document.querySelector('.prev-lb').onclick = (e) => {
+                e.stopPropagation();
+                currentIndex = (currentIndex > 0) ? currentIndex - 1 : images.length - 1;
+                lbImg.src = images[currentIndex].src;
+            };
+            
+            document.querySelector('.next-lb').onclick = (e) => {
+                e.stopPropagation();
+                currentIndex = (currentIndex < images.length - 1) ? currentIndex + 1 : 0;
+                lbImg.src = images[currentIndex].src;
+            };
+            
+            lb.onclick = (e) => { 
+                if(e.target === lb) lb.classList.remove('show'); 
+            };
+        });
+
+        function shareApp() {
+            if (navigator.share) {
+                navigator.share({
+                    title: 'Ludo King® MOD APK V10.3.0.393',
+                    text: 'Download Ludo King® MOD APK V10.3.0.393 MOD APK terbaru dari MODORA Official!',
+                    url: window.location.href
+                });
+            } else {
+                navigator.clipboard.writeText(window.location.href);
+                alert('Link disalin ke clipboard!');
+            }
+        }
+
+        // --- ADBLOCK DETECTOR (MODORA PRO) ---
+        function showAdblockWarning() {
+            var style = document.createElement('style');
+            style.innerHTML = "#modoraAdblockOverlay { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(15, 23, 42, 0.95); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); display: flex; align-items: center; justify-content: center; padding: 20px; z-index: 999999; font-family: 'Plus Jakarta Sans', sans-serif; text-align: center; color: #f8fafc; animation: modoraFadeIn 0.3s ease-out; } @keyframes modoraFadeIn { from { opacity: 0; } to { opacity: 1; } } .modora-premium-card { background: #1e293b; border-radius: 24px; width: 100%; max-width: 400px; padding: 40px 30px; box-shadow: 0 20px 40px rgba(0,0,0,0.5); border: 1px solid #334155; transform: scale(0.9); animation: modoraCardScale 0.4s 0.1s forwards cubic-bezier(0.175, 0.885, 0.32, 1.275); opacity: 0; } @keyframes modoraCardScale { to { transform: scale(1); opacity: 1; } } .modora-icon-header { width: 64px; height: 64px; background: rgba(239, 68, 68, 0.15); color: #ef4444; font-size: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px auto; box-shadow: 0 8px 20px rgba(239, 68, 68, 0.2); } .modora-title { font-size: 22px; font-weight: 800; margin-bottom: 10px; } .modora-desc { font-size: 14px; color: #94a3b8; line-height: 1.5; margin-bottom: 25px; } .modora-highlight { color: #ef4444; font-weight: 700; } .modora-action-card { background: #ef4444; color: white; border: none; border-radius: 16px; padding: 16px; font-weight: 700; font-size: 15px; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 10px; width: 100%; transition: transform 0.2s, background 0.2s; } .modora-action-card:hover { background: #dc2626; } .modora-action-card:active { transform: scale(0.95); }";
+            document.head.appendChild(style);
+
+            var overlay = document.createElement('div');
+            overlay.id = 'modoraAdblockOverlay';
+            overlay.innerHTML = '<div class="modora-premium-card"><div class="modora-icon-header"><i class="fa-solid fa-shield-virus"></i></div><h2 class="modora-title">Pemblokir Iklan Aktif</h2><p class="modora-desc">Situs ini berjalan berkat dukungan iklan. Mohon <span class="modora-highlight">matikan Adblock</span> Anda untuk melanjutkan download.</p><button class="modora-action-card" onclick="location.reload()"><i class="fa-solid fa-rotate-right"></i> Saya sudah mematikan Adblock</button></div>';
+            document.body.appendChild(overlay);
+            document.body.style.overflow = 'hidden';
+        }
+
+        function checkAdBlock() {
+            var script = document.createElement('script');
+            script.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
+            script.onerror = function() { showAdblockWarning(); };
+            script.onload = function() {
+                var ad = document.createElement('div');
+                ad.innerHTML = '&nbsp;';
+                ad.className = 'adsbox ad-placement doubleclick ad-banner banner-ads sponsor-ad';
+                ad.style.cssText = 'display:block; position:absolute; top:-9999px; left:-9999px; height:10px; width:10px;';
+                document.body.appendChild(ad);
+                setTimeout(function() {
+                    var styles = window.getComputedStyle(ad);
+                    if (ad.offsetHeight === 0 || styles.display === 'none' || styles.visibility === 'hidden') {
+                        showAdblockWarning();
+                    }
+                    ad.remove();
+                }, 250);
+            };
+            document.head.appendChild(script);
+        }
+        
+        setTimeout(checkAdBlock, 1500);
+        // --- END ADBLOCK DETECTOR ---
+    </script>
+</body>
+</html>
