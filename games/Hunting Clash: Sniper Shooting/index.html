@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <script>
+        (function() {
+            var userLang = navigator.language || navigator.userLanguage;
+            var targetLang = userLang.split('-')[0];
+            var currentLang = 'id';
+            if (targetLang !== currentLang) {
+                var cookieStr = "googtrans=/" + currentLang + "/" + targetLang;
+                document.cookie = cookieStr + "; path=/; domain=" + window.location.hostname;
+                document.cookie = cookieStr + "; path=/";
+            }
+        })();
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'id',
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <script src="https://pl29495435.effectivecpmnetwork.com/bf/27/b4/bf27b45384569c299e183087eaffdcc7.js"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hunting Clash: Sniper Shooting MOD APK V5.27.0 - MODORA Official</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --bg-body: #0f172a; --bg-card: #1e293b; --text-main: #f8fafc; --text-muted: #94a3b8;
+            --primary: #2563eb; --accent: #10b981; --border: #334155; --card-border: #334155;
+            --bg-glass: rgba(30, 41, 59, 0.85); --glass-blur: blur(12px);
+            --font-main: 'Plus Jakarta Sans', sans-serif; --header-h: 60px;
+            --search-bg: rgba(255, 255, 255, 0.05); --shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: var(--font-main); outline: none; -webkit-tap-highlight-color: transparent; }
+        html, body { width: 100%; overflow-x: hidden; scroll-behavior: smooth; background-color: var(--bg-body); color: var(--text-main); }
+        body { padding-top: calc(var(--header-h) + 15px); padding-bottom: calc(env(safe-area-inset-bottom, 20px) + 30px); }
+        
+        /* Sembunyikan UI Google Translate agar terlihat premium dan clean */
+        .skiptranslate, #goog-gt-tt, .goog-te-banner-frame { display: none !important; }
+        body { top: 0px !important; }
+        #google_translate_element { display: none !important; }
+
+        #mainView { width: 100%; padding: 0 24px; margin: 0 auto; max-width: 600px; animation: appEntry 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+        @keyframes appEntry { 0% { opacity: 0; transform: translateY(15px); } 100% { opacity: 1; transform: translateY(0); } }
+        
+        .ad-box { width: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; margin: 25px 0; overflow-x: auto; scrollbar-width: none; background: rgba(0,0,0,0.15); border-radius: 12px; padding: 10px 0; border: 1px dashed var(--border); }
+        .ad-box::-webkit-scrollbar { display: none; }
+
+        header { position: fixed; top: 0; left: 0; width: 100%; height: var(--header-h); padding: 0 24px; background: var(--bg-glass); backdrop-filter: var(--glass-blur); -webkit-backdrop-filter: var(--glass-blur); display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--border); z-index: 1000; }
+        .btn-back { width: 40px; height: 40px; background: var(--search-bg); color: var(--text-main); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 18px; text-decoration: none; transition: transform 0.2s; cursor: pointer; }
+        .btn-back:active { transform: scale(0.9); }
+        .header-title { font-weight: 800; font-size: 18px; letter-spacing: -0.5px; }
+        .btn-tele { width: 40px; height: 40px; background: #29b6f6; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 18px; text-decoration: none; transition: transform 0.2s; }
+        .btn-tele:active { transform: scale(0.9); }
+
+        .app-header-detail { display: flex; gap: 15px; margin-bottom: 20px; align-items: center; }
+        .app-icon-detail { width: 90px; height: 90px; border-radius: 20px; object-fit: cover; box-shadow: var(--shadow); }
+        .app-meta-detail { flex: 1; }
+        .app-meta-detail h1 { font-size: 20px; font-weight: 800; line-height: 1.3; margin-bottom: 5px; color: var(--text-main); }
+        .app-dev-detail { font-size: 13px; color: var(--text-muted); font-weight: 600; margin-bottom: 8px; }
+        .badge-mod { display: inline-flex; align-items: center; background: rgba(16, 185, 129, 0.15); color: var(--accent); padding: 4px 10px; border-radius: 8px; font-size: 11px; font-weight: 800; gap: 5px; text-transform: uppercase; letter-spacing: 0.5px; }
+
+        .ss-scroll { display: flex; gap: 15px; overflow-x: auto; scroll-snap-type: x mandatory; margin-bottom: 25px; padding-bottom: 10px; scrollbar-width: none; }
+        .ss-scroll::-webkit-scrollbar { display: none; }
+        .ss-img { height: 350px; border-radius: 16px; scroll-snap-align: center; object-fit: cover; box-shadow: var(--shadow); border: 1px solid var(--card-border); cursor: pointer; }
+
+        .section-title { font-size: 16px; font-weight: 800; margin-bottom: 15px; display: flex; align-items: center; gap: 8px; color: var(--text-main); }
+        .section-title i { color: var(--primary); }
+
+        .desc-box { font-size: 14px; line-height: 1.6; color: var(--text-muted); margin-bottom: 25px; background: var(--bg-card); padding: 20px; border-radius: 16px; border: 1px solid var(--card-border); }
+        .desc-box p { margin-bottom: 10px; }
+        .desc-box p:last-child { margin-bottom: 0; }
+
+        .btn-download-huge { display: flex; flex-direction: column; align-items: center; justify-content: center; width: 100%; background: linear-gradient(135deg, var(--primary), #1d4ed8); padding: 18px; border-radius: 16px; color: white; text-decoration: none; font-weight: 800; font-size: 16px; box-shadow: 0 10px 25px rgba(37, 99, 235, 0.4); transition: transform 0.2s, box-shadow 0.2s; gap: 4px; }
+        .btn-download-huge:active { transform: scale(0.96); box-shadow: 0 5px 15px rgba(37, 99, 235, 0.3); }
+        .btn-date { font-size: 11px; font-weight: 600; opacity: 0.85; margin-top: 5px; text-transform: uppercase; letter-spacing: 0.5px; }
+
+        .social-notice { background: var(--bg-card); border: 1px solid var(--card-border); border-radius: 16px; padding: 15px; margin-bottom: 25px; text-align: center; box-shadow: var(--shadow); }
+        .social-notice p { font-size: 13px; font-weight: 700; margin-bottom: 12px; color: var(--text-main); }
+        .social-links { display: flex; gap: 10px; justify-content: center; }
+        .btn-wa, .btn-tg { flex: 1; padding: 10px; border-radius: 12px; text-decoration: none; font-weight: 700; font-size: 13px; display: flex; align-items: center; justify-content: center; gap: 6px; color: white; transition: transform 0.2s; }
+        .btn-wa { background: #25D366; } .btn-tg { background: #2AABEE; }
+        .btn-wa:active, .btn-tg:active { transform: scale(0.95); }
+
+        .mini-actions { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 25px; }
+        .btn-mini { background: var(--bg-card); color: var(--text-main); border: 1px solid var(--card-border); padding: 12px 5px; border-radius: 16px; font-size: 11px; font-weight: 700; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; cursor: pointer; transition: transform 0.2s, background 0.2s; box-shadow: var(--shadow); text-decoration: none; }
+        .btn-mini:active { transform: scale(0.95); background: var(--search-bg); }
+        .btn-mini i { font-size: 18px; color: var(--primary); }
+
+        .mod-feature-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-bottom: 25px; }
+        .mod-feat-card { background: var(--bg-card); padding: 12px 15px; border-radius: 16px; border: 1px solid var(--card-border); display: flex; align-items: center; gap: 10px; font-size: 12px; font-weight: 700; color: var(--text-main); }
+        .mod-feat-card i { color: var(--accent); font-size: 16px; }
+
+        .lightbox { position: fixed; top: 0; left: 0; z-index: 10000; width: 100%; height: 100%; background: rgba(15, 23, 42, 0.95); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); align-items: center; justify-content: center; flex-direction: column; opacity: 0; transition: opacity 0.3s; display: none; }
+        .lightbox.show { display: flex; opacity: 1; }
+        .lightbox-content { max-width: 85vw; max-height: 80vh; object-fit: contain; border-radius: 12px; box-shadow: 0 10px 40px rgba(0,0,0,0.5); transform: scale(0.9); transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+        .lightbox.show .lightbox-content { transform: scale(1); }
+        .close-lb { position: absolute; top: 20px; right: 20px; color: #fff; font-size: 24px; cursor: pointer; width: 40px; height: 40px; background: rgba(255,255,255,0.15); border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: background 0.2s; z-index: 10001; }
+        .close-lb:active { background: rgba(255,255,255,0.3); }
+        .prev-lb, .next-lb { cursor: pointer; position: absolute; top: 50%; transform: translateY(-50%); width: 45px; height: 45px; color: white; font-size: 20px; background: rgba(255,255,255,0.15); border-radius: 50%; display: flex; align-items: center; justify-content: center; z-index: 10001; transition: background 0.2s; }
+        .prev-lb { left: 10px; } .next-lb { right: 10px; }
+        .prev-lb:active, .next-lb:active { background: rgba(255,255,255,0.3); }
+    </style>
+</head>
+<body>
+    <div id="google_translate_element"></div>
+
+    <header>
+        <a href="javascript:history.back()" class="btn-back"><i class="fa-solid fa-angle-left"></i></a>
+        <div class="header-title">App Detail</div>
+        <a href="https://modorazone.com/telegram" class="btn-tele"><i class="fa-brands fa-telegram"></i></a>
+    </header>
+
+    <div id="mainView">
+        
+        <div class="ad-box">
+            <script> atOptions = { 'key' : '98e5a911cde15031515f320e8fcf291f', 'format' : 'iframe', 'height' : 50, 'width' : 320, 'params' : {} }; </script>
+            <script src="https://divorceabetpiano.com/98e5a911cde15031515f320e8fcf291f/invoke.js"></script>
+        </div>
+
+        <div class="app-header-detail">
+            <img src="https://play-lh.googleusercontent.com/tVM9Ot91xYxxp28FrPWYN_rbTheT0CFsUE09z8riGGx4srvUR0eiXCeJTgHiIZYyR6SHp82q2l27XpcVmNojUA=s512" class="app-icon-detail" alt="Icon">
+            <div class="app-meta-detail">
+                <h1>Hunting Clash: Sniper Shooting MOD APK V5.27.0</h1>
+                <div class="app-dev-detail">Ten Square Games</div>
+                <div class="badge-mod"><i class="fa-solid fa-shield-halved"></i> 100% MOD APK</div>
+            </div>
+        </div>
+
+        <div class="ad-box">
+            <script> atOptions = { 'key' : '51958bcab575abd390b6c1b8508d20ac', 'format' : 'iframe', 'height' : 250, 'width' : 300, 'params' : {} }; </script>
+            <script src="https://divorceabetpiano.com/51958bcab575abd390b6c1b8508d20ac/invoke.js"></script>
+        </div>
+
+        <div class="mini-actions">
+            <a href="javascript:void(0)" onclick="scrollToDownload(event)" class="btn-mini"><i class="fa-solid fa-download"></i><span>Download</span></a>
+            <a href="https://play.google.com/store/apps/details?id=com.tensquaregames.hunting.clash.wild.hunter.deer" target="_blank" class="btn-mini"><i class="fa-brands fa-google-play"></i><span>Play Store</span></a>
+            <div class="btn-mini" onclick="shareApp()"><i class="fa-solid fa-share-nodes"></i><span>Bagikan</span></div>
+        </div>
+
+        <div class="ss-scroll">
+            <img src="https://play-lh.googleusercontent.com/RaoJAxDbuf3fZEcHl49M6XrngMFDDgbdZXbiegjlanw11DCjighoIIx-s1OxrEeqAyc=s720" class="ss-img" alt="MODORA Official" loading="lazy">
+                            <img src="https://play-lh.googleusercontent.com/aYq7bZijnYb90MXzD7myOaiuUw5z3qQEASH7lc7Ml7I72DnHuV92HSWXr8g3AtoetPB8=s720" class="ss-img" alt="MODORA Official" loading="lazy">
+                            <img src="https://play-lh.googleusercontent.com/qFBr62C1IaPh33KkuqzB2aLHw76RX5erwQ045e3WDIwgk6vMSJyxYw6ot2H1isE2mRQ=s720" class="ss-img" alt="MODORA Official" loading="lazy">
+                            <img src="https://play-lh.googleusercontent.com/D7fzOc5iPUFNSQgW4Eu4jsNy2RiY7gFEWppW74cX2Wz1jKdrWRwie_CkzbzBbBs3nPnC=s720" class="ss-img" alt="MODORA Official" loading="lazy">
+                            <img src="https://play-lh.googleusercontent.com/8ghTGRwO6TObLtGgwc4bVwPXYbSay1pVVdGc-Xkc5IVn2seAijcMCyQPEkfT2sdeHt2c=s720" class="ss-img" alt="MODORA Official" loading="lazy">
+                            <img src="https://play-lh.googleusercontent.com/2GYqt6tjS2hQfQjG4DvxaX6hdx_bev24S6JRRNFLK_VMj12LNAhZX1e0JQv8WzR_Qg=s720" class="ss-img" alt="MODORA Official" loading="lazy">
+                            <img src="https://play-lh.googleusercontent.com/bb_0SmZ9N8rpfsqoh4gJrgBHovb8L3tf8Mxn_zTeuUU8v6ASXqvy1apYvKyIk6W4Jg=s720" class="ss-img" alt="MODORA Official" loading="lazy">
+                            <img src="https://play-lh.googleusercontent.com/Mke3gUtj9KGunXcEnIa_XHDNzOEV--zcjEpFE5qG97r-U2yRfVSWWQd4cnSVVrM8ckE=s720" class="ss-img" alt="MODORA Official" loading="lazy">
+                            <img src="https://play-lh.googleusercontent.com/zr3GPeAnBtuLwbiw-Jy831VmRgEKov7MOTwkBTc2XNDJnOGb8enUB9ZchOYhRSCC4hg=s720" class="ss-img" alt="MODORA Official" loading="lazy">
+                            <img src="https://play-lh.googleusercontent.com/PbR1nCYnMcLMbhJFxuPlSEt3W0MwP2gGkBvsS6MXGjHot5vHLUxf6vLsJQYvlKem=s720" class="ss-img" alt="MODORA Official" loading="lazy">
+                            <img src="https://play-lh.googleusercontent.com/SiH5adA-SX26KFh4aiSgXxkFBCZE2DaHGNH0nadL-No8OtO-h0VlSki-CW9d_XDupg=s720" class="ss-img" alt="MODORA Official" loading="lazy">
+                            <img src="https://play-lh.googleusercontent.com/Go-kPoWnNQMHXTLwPA_MhxTFWTaw6L8_MGa06vyknlCkui3b9K0SXlAYnVF__qWWO5A=s720" class="ss-img" alt="MODORA Official" loading="lazy">
+                            <img src="https://play-lh.googleusercontent.com/WWQJdRl6JhngOJtRVuEamdMP602o7OThvsCXDnokD3OglGJ1oO5Zw6rEdHVBB-QsgBqh=s720" class="ss-img" alt="MODORA Official" loading="lazy">
+                            <img src="https://play-lh.googleusercontent.com/8-EHtHTJUu_rfUcvuW373pnXgy4WRPFSBUCqseLL2JmLFrVeKIC3wyOcsRUQeoQ-biI=s720" class="ss-img" alt="MODORA Official" loading="lazy">
+                            <img src="https://play-lh.googleusercontent.com/-YX5t2PQGcNCh1Q0pN_DnKOYX_tXIuySLRTFXh_mJ6WUXwYLgiTRdNVVWdpCRM6Xbg=s720" class="ss-img" alt="MODORA Official" loading="lazy">
+                            <img src="https://play-lh.googleusercontent.com/gcSWbAkZE957UqjmJLqkghf2MCEngxCIZfFSCtf1N-9hOwe86eP5emezPSw4JRa1uVM=s720" class="ss-img" alt="MODORA Official" loading="lazy">
+                            <img src="https://play-lh.googleusercontent.com/To5gZ0LBLswrtaIcvvbOqcSeAbbTLDFL2Qray701qEpagi6U7jmgHXHPm1me6XCnhKdU=s720" class="ss-img" alt="MODORA Official" loading="lazy">
+                            <img src="https://play-lh.googleusercontent.com/I4rzTvHrHLfcN9Qfcb_JypPigv_SybWus_ZX8Wk3WzbGz5caTleUlbW0qqLjqVSDLoE=s720" class="ss-img" alt="MODORA Official" loading="lazy">
+                            
+        </div>
+
+        <div class="ad-box">
+            <script async="async" data-cfasync="false" src="https://divorceabetpiano.com/7ed8821ea0ba45dfed7011229402b013/invoke.js"></script>
+            <div id="container-7ed8821ea0ba45dfed7011229402b013"></div>
+        </div>
+
+        
+
+        <div class="ad-box">
+            <script> atOptions = { 'key' : 'e95bef73a5a00706575ee96b07041387', 'format' : 'iframe', 'height' : 60, 'width' : 468, 'params' : {} }; </script>
+            <script src="https://divorceabetpiano.com/e95bef73a5a00706575ee96b07041387/invoke.js"></script>
+        </div>
+
+        <div class="section-title"><i class="fa-solid fa-star"></i> Fitur MOD</div>
+        <div class="mod-feature-grid">
+            <div class="mod-feat-card"><i class="fa-solid fa-circle-check"></i> <span>New Update</span></div><div class="mod-feat-card"><i class="fa-solid fa-circle-check"></i> <span>No Ads</span></div><div class="mod-feat-card"><i class="fa-solid fa-circle-check"></i> <span>Freeze Animals</span></div>
+        </div>
+
+        <div class="section-title"><i class="fa-solid fa-circle-info"></i> Deskripsi</div>
+        <div class="desc-box">
+            <p>The 2025 hunting season is in full swing! Dust off your gun, travel to hunting locations, and observe animals in their natural habitat. Ready to hunt? Let’s play Hunting Clash - a next-generation hunting simulator &amp; shooting game!</p>
+                        
+                        <p>Breathtaking shooting areas</p>
+                        <p>Visit hunting locations: hunt in the woods of Montana, in the freezing forest of Kamchatka, go on a hunting safari in Africa! Stunning views and realistic animals like in no other hunting games offline! Feel the thrill of a big game hunter marksman in the free hunting game like never before! It’s much more than other free sniper games online. </p>
+                        
+                        <p>A sniper shooting game on your mobile</p>
+                        <p>Track animals - deer, elk, grizzly bear, wolf, duck and many more. Choose an animal, prepare your gun, aim and shoot! Big buck hunter games are a combination of hunting games offline and sniper games genres. Master your sniper shooting skills and become a big buck hunter marksman in a top hunting game!</p>
+                        
+                        <p>Hunt or be hunted</p>
+                        <p>Marksman shooting is crucial for every hunter and sniper. And there are tons of events to participate in every day! You have to show off your animals tracking and sniper skills like in the real sniper games online and hunting games! Hunt for specific wild animals like deer in locations in Africa, USA, and Russia. Level up and become a big buck hunter marksman!</p>
+                        
+                        <p>A weapon of your choice</p>
+                        <p>A sniper rifle or a bow? Your call. Gun hunting is much more popular than bow hunting, but bow shooting still has admirers amongst old-fashioned hunters in big buck hunter games - especially on a deer hunt. Whether you prefer gun hunting or bow hunting, there are plenty of upgrades to choose. Enhance your shooting gear and shoot animals with deadly sniper precision of hunting game master.</p>
+                        
+                        <p>Cross your guns</p>
+                        <p>Who said sniper games are all about solo sport? Big buck hunter games are much more exciting while playing with others! Go deer hunting in a 1v1 PvP duel and start a shooting battle with others. The call of the wild - it’s what drives you to the top of big buck hunter games leaderboards. Become a master of sniper games, get epic loot and show off who’s boss in this animal shooting game.</p>
+                        
+                        <p>Realistic hunting locations</p>
+                        <p>Hunting simulator is not only about being a good sniper. To become a master of big buck hunter and marksman games, you have to pay attention to your surroundings. Just like in fishing games. Otherwise, you may not have a chance to shoot with your gun at all! Hunting Clash offers dozens of real nature-based locations where buck hunters can blend in and wait for their prey. Travel across Africa, Australia, USA, Poland and many more! Not all sniper games or hunting games offline can encourage hunters with such a variety of amazing hunting places. Grab your guns and go for a great sniper games adventure!</p>
+                        
+                        <p>Train a hunting dog!</p>
+                        <p>A dog is a hunter’s best friend. Especially in hunting games offline. Get one, train it and gain bonuses for specific big buck hunter games. With such a trustworthy ally hunting a big game is a real pleasure.</p>
+                        
+                        <p>Join a Hunter Club!</p>
+                        <p>Join forces with fellow hunters and together drive your Hunter Club to the top. Share gear and your big buck hunter marksman experience and fulfill Club’s goals. Whether you prefer to hunt solo or try your gun in a duel in PvP hunting games, gun shooting practice in Hunter Clubs is something for every buck hunter.</p>
+                        
+                        <p>Graphics like in AAA sniper games</p>
+                        <p>See a wolf or a bear fur? A realistic deer? Hunting for animals like these is a real treat, especially in sniper games. It’s an AAA quality of hunting games!</p>
+                        
+                        <p>Answer the call of the wild and unite with your gun to hunt animals like a big game hunter. Pick your guns, track animals, collect hunter gear, observe nature’s beauty and fight in sniper games. Look no further for other hunting games offline. Play Hunting Clash and feel the thrill no other free hunting games offline can provide! Download now for free and start your adventure with big buck hunter games. Sniper games couldn't be better!</p>
+        </div>
+
+        <div class="ad-box">
+            <script> atOptions = { 'key' : '264ec4e97722a33af0ac52379830e335', 'format' : 'iframe', 'height' : 90, 'width' : 728, 'params' : {} }; </script>
+            <script src="https://divorceabetpiano.com/264ec4e97722a33af0ac52379830e335/invoke.js"></script>
+        </div>
+
+        <div class="social-notice">
+            <p>Komunitas Modora Official</p>
+            <div class="social-links">
+                <a href="https://modorazone.com/telegram" class="btn-tg"><i class="fa-brands fa-telegram"></i> Join Telegram</a>
+            </div>
+        </div>
+
+        <div class="ad-box">
+            <script> atOptions = { 'key' : '70a73ba0d4418dd3245c267223cce867', 'format' : 'iframe', 'height' : 300, 'width' : 160, 'params' : {} }; </script>
+            <script src="https://divorceabetpiano.com/70a73ba0d4418dd3245c267223cce867/invoke.js"></script>
+        </div>
+
+        <div class="section-title" id="download-section" style="margin-top: 15px;"><i class="fa-solid fa-cloud-arrow-down"></i> Area Download</div>
+        
+        
+                <div id="dl-wrap-0" style="margin-bottom: 12px;">
+                    <div id="dl-loading-0" style="background: var(--bg-card, #1e293b); border: 1px solid var(--card-border, #334155); border-radius: 16px; padding: 25px 20px; text-align: center; color: var(--text-main, #f8fafc); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
+                        <i class="fa-solid fa-circle-notch fa-spin" style="font-size: 28px; color: var(--primary, #2563eb);"></i>
+                        <span style="font-size: 14px; font-weight: 700;">Mempersiapkan Link... <span id="dl-count-0" style="color: var(--primary, #2563eb); font-size: 18px; font-weight: 800;">10</span>s</span>
+                        <div style="width: 100%; height: 6px; background: rgba(0,0,0,0.5); border-radius: 10px; overflow: hidden; box-shadow: inset 0 2px 4px rgba(0,0,0,0.5);">
+                            <div id="dl-progress-0" style="width: 0%; height: 100%; background: linear-gradient(90deg, var(--primary, #2563eb), var(--accent, #10b981)); transition: width 1s linear; border-radius: 10px;"></div>
+                        </div>
+                    </div>
+                    <a href="https://app.apkmb.com/Hunting%20Clash/Hunting%20Clash%20v5.26.0%20-%20Mod.apk" class="btn-download-huge" id="dl-btn-0" style="display: none; animation: appEntry 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;">
+                        <div><span>DOWNLOAD (200 MB)</span></div>
+                        <div class="btn-date">Update: 2 Juni 2026</div>
+                    </a>
+                    <script>
+                        setTimeout(() => {
+                            let timeLeft = 10;
+                            let loadingEl = document.getElementById('dl-loading-0');
+                            let btnEl = document.getElementById('dl-btn-0');
+                            let countEl = document.getElementById('dl-count-0');
+                            let progressEl = document.getElementById('dl-progress-0');
+                            
+                            let dlTimer = setInterval(() => {
+                                timeLeft--;
+                                let pct = ((10 - timeLeft) / 10) * 100;
+                                if(progressEl) progressEl.style.width = pct + '%';
+                                
+                                if(timeLeft > 0) {
+                                    if(countEl) countEl.innerText = timeLeft;
+                                } else {
+                                    clearInterval(dlTimer);
+                                    if(loadingEl) loadingEl.style.display = 'none';
+                                    if(btnEl) btnEl.style.display = 'flex';
+                                }
+                            }, 1000);
+                            setTimeout(() => { if(progressEl) progressEl.style.width = '10%'; }, 50);
+                        }, 100);
+                    </script>
+                </div>
+        
+        <div class="ad-box">
+            <script> atOptions = { 'key' : 'fbe67facb6ed3b1bc6257b57040c6787', 'format' : 'iframe', 'height' : 600, 'width' : 160, 'params' : {} }; </script>
+            <script src="https://divorceabetpiano.com/fbe67facb6ed3b1bc6257b57040c6787/invoke.js"></script>
+        </div>
+
+        <div style="height: 60px;"></div>
+    </div>
+
+    <div class="lightbox" id="lightbox">
+        <div class="close-lb"><i class="fa-solid fa-xmark"></i></div>
+        <div class="prev-lb"><i class="fa-solid fa-angle-left"></i></div>
+        <img class="lightbox-content" id="img-lb" src="">
+        <div class="next-lb"><i class="fa-solid fa-angle-right"></i></div>
+    </div>
+
+    <script src="https://pl29495437.effectivecpmnetwork.com/a0/4b/f8/a04bf8d588d2c0056bdf6dbcd2c878a3.js"></script>
+
+    <script>
+        // Fungsi scroll ke download akurat di tengah layar
+        function scrollToDownload(e) {
+            if(e) e.preventDefault();
+            const section = document.getElementById('download-section');
+            if(section) {
+                section.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const lb = document.getElementById('lightbox');
+            const lbImg = document.getElementById('img-lb');
+            const images = document.querySelectorAll('.ss-img');
+            let currentIndex = 0;
+
+            images.forEach((img, index) => {
+                img.addEventListener('click', () => {
+                    lb.classList.add('show');
+                    lbImg.src = img.src;
+                    currentIndex = index;
+                });
+            });
+
+            document.querySelector('.close-lb').onclick = () => lb.classList.remove('show');
+            
+            document.querySelector('.prev-lb').onclick = (e) => {
+                e.stopPropagation();
+                currentIndex = (currentIndex > 0) ? currentIndex - 1 : images.length - 1;
+                lbImg.src = images[currentIndex].src;
+            };
+            
+            document.querySelector('.next-lb').onclick = (e) => {
+                e.stopPropagation();
+                currentIndex = (currentIndex < images.length - 1) ? currentIndex + 1 : 0;
+                lbImg.src = images[currentIndex].src;
+            };
+            
+            lb.onclick = (e) => { 
+                if(e.target === lb) lb.classList.remove('show'); 
+            };
+        });
+
+        function shareApp() {
+            if (navigator.share) {
+                navigator.share({
+                    title: 'Hunting Clash: Sniper Shooting MOD APK V5.27.0',
+                    text: 'Download Hunting Clash: Sniper Shooting MOD APK V5.27.0 MOD APK terbaru dari MODORA Official!',
+                    url: window.location.href
+                });
+            } else {
+                navigator.clipboard.writeText(window.location.href);
+                alert('Link disalin ke clipboard!');
+            }
+        }
+
+        // --- ADBLOCK DETECTOR (MODORA PRO) ---
+        function showAdblockWarning() {
+            var style = document.createElement('style');
+            style.innerHTML = "#modoraAdblockOverlay { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(15, 23, 42, 0.95); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); display: flex; align-items: center; justify-content: center; padding: 20px; z-index: 999999; font-family: 'Plus Jakarta Sans', sans-serif; text-align: center; color: #f8fafc; animation: modoraFadeIn 0.3s ease-out; } @keyframes modoraFadeIn { from { opacity: 0; } to { opacity: 1; } } .modora-premium-card { background: #1e293b; border-radius: 24px; width: 100%; max-width: 400px; padding: 40px 30px; box-shadow: 0 20px 40px rgba(0,0,0,0.5); border: 1px solid #334155; transform: scale(0.9); animation: modoraCardScale 0.4s 0.1s forwards cubic-bezier(0.175, 0.885, 0.32, 1.275); opacity: 0; } @keyframes modoraCardScale { to { transform: scale(1); opacity: 1; } } .modora-icon-header { width: 64px; height: 64px; background: rgba(239, 68, 68, 0.15); color: #ef4444; font-size: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px auto; box-shadow: 0 8px 20px rgba(239, 68, 68, 0.2); } .modora-title { font-size: 22px; font-weight: 800; margin-bottom: 10px; } .modora-desc { font-size: 14px; color: #94a3b8; line-height: 1.5; margin-bottom: 25px; } .modora-highlight { color: #ef4444; font-weight: 700; } .modora-action-card { background: #ef4444; color: white; border: none; border-radius: 16px; padding: 16px; font-weight: 700; font-size: 15px; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 10px; width: 100%; transition: transform 0.2s, background 0.2s; } .modora-action-card:hover { background: #dc2626; } .modora-action-card:active { transform: scale(0.95); }";
+            document.head.appendChild(style);
+
+            var overlay = document.createElement('div');
+            overlay.id = 'modoraAdblockOverlay';
+            overlay.innerHTML = '<div class="modora-premium-card"><div class="modora-icon-header"><i class="fa-solid fa-shield-virus"></i></div><h2 class="modora-title">Pemblokir Iklan Aktif</h2><p class="modora-desc">Situs ini berjalan berkat dukungan iklan. Mohon <span class="modora-highlight">matikan Adblock</span> Anda untuk melanjutkan download.</p><button class="modora-action-card" onclick="location.reload()"><i class="fa-solid fa-rotate-right"></i> Saya sudah mematikan Adblock</button></div>';
+            document.body.appendChild(overlay);
+            document.body.style.overflow = 'hidden';
+        }
+
+        function checkAdBlock() {
+            var script = document.createElement('script');
+            script.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
+            script.onerror = function() { showAdblockWarning(); };
+            script.onload = function() {
+                var ad = document.createElement('div');
+                ad.innerHTML = '&nbsp;';
+                ad.className = 'adsbox ad-placement doubleclick ad-banner banner-ads sponsor-ad';
+                ad.style.cssText = 'display:block; position:absolute; top:-9999px; left:-9999px; height:10px; width:10px;';
+                document.body.appendChild(ad);
+                setTimeout(function() {
+                    var styles = window.getComputedStyle(ad);
+                    if (ad.offsetHeight === 0 || styles.display === 'none' || styles.visibility === 'hidden') {
+                        showAdblockWarning();
+                    }
+                    ad.remove();
+                }, 250);
+            };
+            document.head.appendChild(script);
+        }
+        
+        setTimeout(checkAdBlock, 1500);
+        // --- END ADBLOCK DETECTOR ---
+    </script>
+</body>
+</html>
